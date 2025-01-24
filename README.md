@@ -5,7 +5,9 @@ cd pre-screening-assignment/assignment
 change postgres ip address in backend/.env file 
 and also in docker-compose file change in frontend environment file
 
-RUN docker-compose file
+add the backend ip in frontend/src/App.js file so that it can communicate with backend api
+
+**RUN docker-compose file with below command**
 
 docker-compose up -d
 
