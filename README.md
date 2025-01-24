@@ -2,6 +2,9 @@ git clone <repo>
 
 cd pre-screening-assignment/assignment
 
+change postgres ip address in backend/.env file 
+and also in docker-compose file change in frontend environment file
+
 RUN docker-compose file
 
 docker-compose up -d
